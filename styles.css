@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+}
+h2{
+  color: white;
+  padding: 3px;
+  margin: 2px;
+}
+h3{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+h4{
+  color: white;
+  text-align: center;
+}
+h6{
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:28px;
+  margin:12px;
+}
+#body{
+  text-align: center;
+  margin-top: 235px;
+}
+.topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+    float:right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #myImage{
+   float:right;
+   margin:4px;
+  }
+  #foots{
+    color: black;
+    margin-top:238px;
+    margin-left: 5px;
+    padding: 23px;
+  }
+  #hire{
+    background-color: #04AA6D;
+    border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   
+
+  }
+  #contact{
+    background-color: #5555;
+    border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    
+
+  }
