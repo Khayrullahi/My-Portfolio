@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div  class="topnav">
-        <h2>DEVFIRSTMIND</h2>    
-        <a class="active" href="#home">Home</a>
-        <a class="#about">ABOUT</a>
-        <a class="#services">SERVICES</a>
-        <a class="#contact">CONTACT</a>
-      
-    </div>
-    <div>
-        <div>
-            <img id="myImage" src="./myPhoto.png" alt="my wallpaper">
-            </div> 
-</div id="body">
-<h6>I'M</h6>
-<h3>KAZEEM ABIODUN</h3>
-<h4>A WEB DEVELOPER</h4>
-</div>
-<div id="foots"></div>
-        <button id="hire">HIRE ME</button>
-         <button id="contact">CONTACT ME</button>
-    </div>
-
- 
-    
+    <header class="container">
+        <div id="logo" ><a href="/">ABIODUN PORTFOLIO</a></div>
+            <nav class="desc">
+         <ul class="nav-items">
+                <li ><a href="/Home">HOME</a></li>
+                <li><a href="/Certificate">CERTIFICATE</a></li>
+                <li><a href="/Experience">EXPERIENCE</a></li>
+                <li><a href="/Project">PROJECT</a></li>
+                <li><a href="/Resume">RESUME</a></li>
+                <li><a href="/Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li ><a href="/Home">HOME</a></li>
+                <li><a href="/Certificate">CERTIFICATE</a></li>
+                <li><a href="/Experience">EXPERIENCE</a></li>
+                <li><a href="/Project">PROJECT</a></li>
+                <li><a href="/Resume">RESUME</a></li>
+                <li><a href="/Contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="background-content">
+        <div class="background">
+                <h4 id="background-text"><span id="firstname">Hello,</span>I'm Kazeem <span id="firstname">Abiodun</span>
+                </h4>
+                <p class="abouttext">A passionate and seasoned software developer with over 3years of experience in building high-quality web and mobile applications.</p>
+                <img class="backgroundimg" src="./myPhoto.png" alt="background-images">
+        </div>
+        
 
 </body>
+<script src="script.js"></script>
 </html
